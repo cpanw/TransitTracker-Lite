@@ -1,0 +1,10 @@
+
+.combo-box .list-cell {
+    -fx-font-size: 14px;
+    -fx-font-family: Monaco; 
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-font-size: 14px;
+    -fx-font-family: Monaco; 
+}

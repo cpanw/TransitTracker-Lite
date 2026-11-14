@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transittrackerlite.MainPageController">
+    <children>
+      <VBox prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="48.0" prefWidth="600.0">
+               <children>
+                  <HBox prefHeight="36.0" prefWidth="504.0">
+                     <children>
+                        <SearchableComboBox fx:id="StationList" editable="true" prefHeight="36.0" prefWidth="503.0" promptText="Search Stations..." />
+                     </children>
+                  </HBox>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#onStationEnter" prefHeight="36.0" prefWidth="99.0" text="Enter" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="18.0" prefWidth="600.0" stylesheets="@font.css" />
+      <ScrollPane prefHeight="352.0" prefWidth="600.0" fx:id="routeScrollPane" />
+   </children>
+</VBox>

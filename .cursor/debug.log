@@ -1,0 +1,6 @@
+{"location":"MainPageController.java:onStationEnter","message":"button pressed","hypothesisId":"H1_H2_H4","data":{"selectedItem":"100th Ave NE & NE 124th St","windowNull":false,"editorText":"","sceneNull":false,"selectionEmpty":false},"timestamp":1772855046730}
+{"location":"StationView.java:getStopInfo","message":"entry","hypothesisId":"H3","data":{"name":"100th Ave NE & NE 124th St"},"timestamp":1772855046732}
+{"location":"StationView.java:getStopInfo","message":"exit","hypothesisId":"H3","data":{"id":"1_70150","idEmpty":false},"timestamp":1772855047489}
+{"location":"MainPage.java:changeToStationView","message":"entry","hypothesisId":"H3_H5","data":{"stationName":"100th Ave NE & NE 124th St","stationId":"1_70150"},"timestamp":1772855047489}
+{"location":"StationViewController.java:initialize","message":"called","hypothesisId":"H5","data":{"stationNull":true},"timestamp":1772855047500}
+{"location":"StationViewController.java:setStationInfo","message":"called","hypothesisId":"H5","data":{"id":"1_70150","stationNull":false},"timestamp":1772855047501}

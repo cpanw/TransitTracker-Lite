@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="600.0" style="-fx-border-style: solid; -fx-border-color: black; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.transittrackerlite.SmallStopController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="110.0" prefWidth="198.0">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="Tracking" arcHeight="5.0" arcWidth="5.0" fill="#e12f2f" height="72.0" stroke="BLACK" strokeType="INSIDE" width="149.0" />
+                  <Text fx:id="TrackingText" strokeType="OUTSIDE" strokeWidth="0.0" text="TRACKING">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+         </children></VBox>
+      <VBox prefHeight="106.0" prefWidth="0.0">
+         <children>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="106.0" prefWidth="188.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="ArrivalTime" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children></VBox>
+      <VBox prefHeight="106.0" prefWidth="9.0">
+         <children>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="110.0" prefWidth="208.0">
+         <children>
+            <Text fx:id="RouteText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="204.5367431640625">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="DestinationText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="206.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children></VBox>
+   </children>
+</HBox>
